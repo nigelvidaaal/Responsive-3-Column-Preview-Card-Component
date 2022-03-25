@@ -31,11 +31,18 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 1440px;
+  flex-wrap: wrap;
 }
 
 .card {
   width: 300px;
   height: 450px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
 .card-1 {
@@ -45,6 +52,12 @@ body {
   padding: 40px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  z-index: 1;
+}
+
+.card-1:hover {
+  background-color: #b36200;
+  transition: 0.3s ease-in-out;
 }
 
 .cars img {
@@ -81,6 +94,11 @@ p {
   padding: 40px;
 }
 
+.card-2:hover {
+  background-color: #004747;
+  transition: 0.3s ease-in-out;
+}
+
 .card-3 {
   background-color: var(--very-dark-cyan);
   width: 100%;
@@ -88,6 +106,11 @@ p {
   padding: 40px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.card-3:hover {
+  background-color: #002e2e;
+  transition: 0.3s ease-in-out;
 }
 
 button {
@@ -101,6 +124,7 @@ button {
 
 .card-1 button {
   color: var(--bright-orange);
+  transition: 0.3s ease-in-out;
 }
 
 .card-1 button:hover {
@@ -110,6 +134,7 @@ button {
 
 .card-2 button {
   color: var(--dark-cyan);
+  transition: 0.3s ease-in-out;
 }
 
 .card-2 button:hover {
@@ -119,6 +144,7 @@ button {
 
 .card-3 button {
   color: var(--very-dark-cyan);
+  transition: 0.3s ease-in-out;
 }
 
 .card-3 button:hover {
