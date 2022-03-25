@@ -40,7 +40,6 @@ body {
 }
 
 .card:hover {
-  cursor: pointer;
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
@@ -130,6 +129,7 @@ button {
 .card-1 button:hover {
   background-color: var(--bright-orange);
   color: white;
+  cursor: pointer;
 }
 
 .card-2 button {
@@ -140,6 +140,7 @@ button {
 .card-2 button:hover {
   background-color: var(--dark-cyan);
   color: white;
+  cursor: pointer;
 }
 
 .card-3 button {
@@ -150,4 +151,5 @@ button {
 .card-3 button:hover {
   background-color: var(--very-dark-cyan);
   color: white;
+  cursor: pointer;
 }
